@@ -1,6 +1,6 @@
 # Task Management (Django)
 
-A small, straightforward Task Management web app built with Django. It’s intentionally simple: you can create tasks, view them, update them, mark them as done, and delete them—without any user accounts, login, or authentication.
+A small, straightforward Task Management web app built with Django. It’s intentionally simple: you can create tasks, view them, update them, mark them as done, and delete them without any user accounts, login, or authentication.
 
 Because there’s **no authentication**, everything is shared and public for anyone who can access the site.
 
