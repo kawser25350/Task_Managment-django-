@@ -6,7 +6,7 @@ from author.models import Author
 class Post(models.Model):
     title=models.CharField(max_length=50)
     content=models.TextField()
-    category= models.ManyToManyField(Category) # akta post multiple category r hote pare, akta category r multiple post thakte pare
+    category=models.ManyToManyField(Category) # akta post multiple category r hote pare, akta category r multiple post thakte pare
     author = models.ForeignKey(Author,on_delete=models.CASCADE)
       
     def __str__(self):
